@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'SJContactIntegrate'
-    s.version      = '3.4.3'
+    s.version      = '3.4.4'
     s.summary      = 'video player.'
     s.description  = 'https://github.com/changsanjiang/SJContactIntegrate/blob/master/README.md'
     s.homepage     = 'https://github.com/changsanjiang/SJContactIntegrate'
@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
     
     s.subspec 'ResourceLoader' do |ss|
       ss.source_files = 'SJContactIntegrate/ResourceLoader/*.{h,m}'
-      ss.resource = 'SJContactIntegrate/ResourceLoader/SJVideoPlayer.bundle'
+      ss.resource = 'SJContactIntegrate/ResourceLoader/SJContactIntegrate.bundle'
     end
 end
