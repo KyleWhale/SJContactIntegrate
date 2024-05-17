@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
     s.homepage     = 'https://github.com/changsanjiang/SJContactIntegrate'
     s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
     s.author       = { 'SanJiang' => 'changsanjiang@gmail.com' }
-    s.platform     = :ios, '9.0'
+    s.platform     = :ios, '12.0'
     s.source       = { :git => 'https://github.com/KyleWhale/SJContactIntegrate.git', :tag => "v#{s.version}" }
     s.requires_arc = true
-    s.dependency 'SJBaseSequenceInvolve', '>= 3.7.5'
+    s.dependency 'SJBaseSequenceInvolve'
 
     s.source_files = 'SJContactIntegrate/*.{h,m}'
     
