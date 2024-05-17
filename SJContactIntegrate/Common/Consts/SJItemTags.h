@@ -1,0 +1,30 @@
+//
+//  SJItemTags.h
+//  SJContactIntegrate
+//
+//  Created by BlueDancer on 2020/12/31.
+//
+
+#import "SJEdgeControlButtonItem.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+#pragma mark -
+
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerTopItemBack;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerTopItemTitle;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerTopItemPictureInPicture API_AVAILABLE(ios(14.0));
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerTopItemMore;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerLeftItemLock;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerRightItemSegment;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemImplement;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemContentTime;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemPresentTime;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemSeparator;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemPattern;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemManifest;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemReverse;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerBottomItemDefinition;
+extern SJEdgeControlButtonItemTag const SJEdgeControlLayerCenterItemAutomatic;
+
+NS_ASSUME_NONNULL_END
